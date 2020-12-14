@@ -1,5 +1,6 @@
-# Ladu
-LADU - Low code platform for rapid application development of Spring Boot applications.
+![Ladu](https://github.com/gyaltso/Ladu/blob/main/logo/ladu.png)
+
+Low code platform for rapid development of Spring Boot applications.
 
 # Background
 Developing a Spring Boot application involves defining multiple Entities, Controllers, Services, Repositories, Main Application...etc. Every time you define a new Entity, you are expected to define a new Controller, Repository, and Service. The process keeps on repeating throughout the lifecycle of the project as it grows. 
