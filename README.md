@@ -8,13 +8,13 @@ At least 15% of your project time is spent doing the above repetitive work. In a
 
 The problem with the above software development approach is that a lot of valuable time is spent doing repetitive unproductive tasks. Also, exposure to technology is quite high - you are expected to know a programming language, frameworks like Spring Boot/Quarks, knowledge of UI frameworks, Databases...etc. The amount of pressure it puts on a developer is very high.
 
-What if “all” the above-mentioned artifacts are generated for you? You define an Entity and a complete Spring Boot application along with a functional UI component is generated for you? The unit-tests, the UI automation scripts, the Database schema is generated for you?
+What if “all” the above-mentioned artifacts are generated for you? You define an **Entity** and a complete Spring Boot application along with a functional UI component is generated? The unit-tests, the UI automation scripts, the Database schema is generated?
 
-The above is precisely what Ladu does for you. It is a low code platform that provides an Entity definition language and generates a fully-functional Spring Boot microservices application, UI components based on Vue.js (with commonly used validation support), Database schemas for multiple databases, unit-tests, automation tests in no time. Changement management is handled by the platform with very little manual intervention. The generated code is of very high quality.
+The above is precisely what **Ladu** does for you. It is a **Low Code platform** that provides a entity definition language based on which it generates a fully-functional Spring Boot microservices application, UI components based on Vue.js (with validation support), Database schemas for multiple databases, unit-tests, automation tests in no time. Changement management is handled by the platform with very little manual intervention. The generated code is of very high quality.
 
 # Supported features
 1. Complete Spring Boot application with CRUD endpoints
-2. Vue.js components, with validation support
+2. Vue.js components with validation support
 3. The database schema for multiple relational databases
 4. Ladu IDE and Project tooling.
 
@@ -27,7 +27,7 @@ The above is precisely what Ladu does for you. It is a low code platform that pr
 6. Support for commonly used JS framework like Angular, React...etc
 7. Support for Workflows
 8. Support for Browser based editing/tooling
-TBD...
+9. TBD...
 
 
 # Contributors
