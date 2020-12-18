@@ -32,5 +32,5 @@ Most importantly, the platform greatly reduces the amount of exposure to the tec
 9. TBD...
 
 # Contributors
-Neeraj Bhusare 
+Neeraj Bhusare (neerajbhusare@gyaltso.com)
 
