@@ -3,15 +3,15 @@
 Low code platform for rapid development of Spring Boot applications.
 
 # Background
-Developing a Spring Boot application involves defining multiple Entities, Controllers, Services, Repositories, Main Application...etc. Every time you define a new Entity, you are expected to define a new Controller, Repository, and Service. The process keeps on repeating throughout the lifecycle of the project as it grows. 
+Traditionally developing an enterprise application has been a tedious and time-consuming endeavor. After gathering the requirements, a tremendous amount of time is spent by the development team in implementing each and every piece of the software being developed. Besides development, they have to actively engage in the maintenance and bug fixing process; the latter taking a hefty amount of the project time. Often, the project has to be adapted to suit the newer requirements or the ones that changed. As the project evolves, the technical debt increases, the source code starts looking diverse with each feature having its own flavor and style in which it was implemented. In many cases, you need to have special skills to understand these diversely written pieces and add enhancements or fix issues. This overall process puts a lot of pressure on the development team and makes it very difficult for the software to evolve in a consistent manner. 
 
-At least 15% of your project time is spent doing the above repetitive work. In addition, you have to define the database schemas, unit-tests...etc which adds 5% to the overall time spend. Defining the UI takes up at least 25% of the project time. As the requirement change (which very often happens in a real-world project), you have to alter all the above pieces that you had so carefully crafted. Change management takes a hefty amount of time. In the process, you introduce bugs, and fixing them takes time. 
+Project **Ladu** is an effort to solve some of the problems that are highlighted above. It is a **Low-code platform** that provides a model definition language and code generation facility. The generated code is industry standard and is of very high quality. In the current state, it can generate a fully-functional **Spring Boot** microservice application and **Vue.js** Components within minutes. It provides support for easily adding validations to the generated Vue components. The same can be used as-is in a Vue project created using Vue CLI. The amount of repetitive Spring Boot code (Entities, Controllers, Repositories, Services...) that the user has to manually code is reduced to none. 
 
-The problem with the above software development approach is that a lot of valuable time is spent doing repetitive unproductive tasks. Also, exposure to technology is quite high - you are expected to know a programming language, frameworks like Spring Boot/Quarks, knowledge of UI frameworks, Databases...etc. The amount of pressure it puts on a developer is very high.
+Automatic generation of the Schema for multiple databases is supported by the platform. Unit-tests and UI automation scripts are generated as part of the process. 
 
-What if “all” the above-mentioned artifacts are generated for you? You define an **Entity** and a complete Spring Boot application along with a functional UI component is generated? The unit-tests, the UI automation scripts, the Database schema is generated?
+Managing changes or adding new features using the platform is a no brainer. The user has to modify the entity definition and generated code (Spring Boot, Vue, Unit-tests, Automation scripts, Database schema) are adapted appropriately. The amount of manual intervention is very low.
 
-The above is precisely what **Ladu** does for you. It is a **Low Code platform** that provides a entity definition language based on which it generates a fully-functional Spring Boot microservices application, UI components based on Vue.js (with validation support), Database schemas for multiple databases, unit-tests, automation tests in no time. Changement management is handled by the platform with very little manual intervention. The generated code is of very high quality.
+Most importantly, the platform greatly reduces the amount of exposure to the technology that you would have had with the traditional approach. The rapid Code generation and Change management facility can help you deliver very high-quality projects at a faster pace. Realistically speaking, the overall cost of the project can be reduced by at least 40%.
 
 # Supported features
 1. Complete Spring Boot application with CRUD endpoints
@@ -28,8 +28,8 @@ The above is precisely what **Ladu** does for you. It is a **Low Code platform**
 6. Support for commonly used JS framework like Angular, React...etc
 7. Support for Workflows
 8. Support for Browser based editing/tooling
+9. Support Cross-platform mobile application (Ionic and similar)
 9. TBD...
-
 
 # Contributors
 Neeraj Bhusare 
