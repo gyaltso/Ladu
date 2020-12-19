@@ -20,16 +20,17 @@ Most importantly, the platform greatly reduces the amount of exposure to the tec
 4. Ladu IDE and Project tooling.
 
 # Future enhancements
-1. Support for well known Micros Sercvies frameworks like  Quarks, Lagom...etc
-2. Support for multiple languages - Kotin, Scala, Python, .Net...etc
-3. Support for NoSQL databases schema generation
-4. Support for GraphQL
-5. Support for browser-based Drag and Drop editor for composing UI 
-6. Support for commonly used JS framework like Angular, React...etc
-7. Support for Workflows
-8. Support for Browser based editing/tooling
-9. Support Cross-platform mobile application (Ionic and similar)
-9. TBD...
+1. Support for layouting of components using a layout language
+2. Support for well known Micros Sercvies frameworks like  Quarks, Lagom...etc
+3. Support for multiple languages - Kotin, Scala, Python, .Net...etc
+4. Support for NoSQL databases schema generation
+5. Support for GraphQL
+6. Support for browser-based Drag and Drop editor for composing UI 
+7. Support for commonly used JS framework like Angular, React...etc
+8. Support for Workflows
+9. Support for Browser based editing/tooling
+10. Support Cross-platform mobile application (Ionic and similar)
+11. TBD...
 
 # Contributors
 Neeraj Bhusare (neerajbhusare@gyaltso.com)
