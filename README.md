@@ -21,8 +21,8 @@ Most importantly, the platform greatly reduces the amount of exposure to the tec
 
 # Future enhancements
 1. Support for component layouting 
-2. Support for well known Micros Sercvies frameworks like Quarks, Lagom...etc
-3. Support for multiple languages - Kotin, Scala, Python, .Net Core...etc
+2. Support for well known Micros Sercvies frameworks like Quarks, Lagom, .Net Core...etc
+3. Support for multiple languages - Kotin, Scala, Python...etc
 4. Support for NoSQL databases schema generation
 5. Support for GraphQL
 6. Support for browser-based Drag and Drop editor for composing UI 
