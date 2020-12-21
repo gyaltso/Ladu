@@ -32,6 +32,9 @@ Most importantly, the platform greatly reduces the amount of exposure to the tec
 10. Support Cross-platform mobile application (Ionic and similar)
 11. TBD...
 
+# Screen shot
+![product_ss](https://github.com/gyaltso/Ladu/blob/main/screen_shots/demo_ss.png)
+
 # Contributors
 Neeraj Bhusare (neerajbhusare@gyaltso.com)
 
