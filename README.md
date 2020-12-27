@@ -17,7 +17,8 @@ Most importantly, the platform greatly reduces the amount of exposure to the tec
 1. Complete Spring Boot application with CRUD endpoints
 2. Vue.js components with validation support
 3. The database schema for multiple relational databases
-4. Ladu IDE and Project tooling.
+4. Ladu IDE and Project tooling
+5. Generation of .Net Core artifacts - Entities, Controllers, Startup class.
 
 # Future enhancements
 1. Support for component layouting 
