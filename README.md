@@ -18,7 +18,8 @@ Most importantly, the platform greatly reduces the amount of exposure to the tec
 2. Vue.js components with validation support
 3. The database schema for multiple relational databases
 4. Ladu IDE and Project tooling
-5. Generation of .Net Core artifacts - Entities, Controllers, Startup class.
+5. Generation of .Net Core artifacts - Entities, Controllers, Startup class
+6. Generation of Database schema.
 
 # Future enhancements
 1. Support for component layouting 
