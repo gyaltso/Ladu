@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="jakarta.persistence-api-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="liquibase.jar"/>
+	<classpathentry exported="true" kind="lib" path="spring-beans-5.2.9.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="spring-boot-autoconfigure-2.3.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="spring-context-5.2.9.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="spring-data-commons-2.3.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="spring-data-jpa-2.3.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="spring-web-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

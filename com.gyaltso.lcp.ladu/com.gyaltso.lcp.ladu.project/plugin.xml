@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="com.gyaltso.lcp.ladu.project"
+            name="Ladu">
+      </category>
+      <wizard
+            category="com.gyaltso.lcp.ladu.project"
+            class="com.gyaltso.lcp.ladu.project.project.wizard.LaduProjectCreationWizard"
+            icon="icons/action/action.png"
+            id="com.gyaltso.lcp.ladu.project.wizard"
+            name="Ladu project"
+            project="true">
+      </wizard>
+      <primaryWizard
+            id="com.gyaltso.lcp.ladu.project.wizard">
+      </primaryWizard>
+   </extension>
+   <extension
+         id="com.gyaltso.lcp.ladu.project.nature"
+         name="Ladu project nature"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run
+               class="com.gyaltso.lcp.ladu.project.project.LaduProjectNature">
+         </run>
+      </runtime>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="com.gyaltso.lcp.ladu.ui.perspective">
+         <newWizardShortcut
+               id="com.gyaltso.lcp.ladu.project.wizard">
+         </newWizardShortcut>
+      </perspectiveExtension>
+   </extension>
+
+</plugin>

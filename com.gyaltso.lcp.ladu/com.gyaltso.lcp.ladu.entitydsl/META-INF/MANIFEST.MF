@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.gyaltso.lcp.ladu.entitydsl
+Bundle-ManifestVersion: 2
+Bundle-Name: com.gyaltso.lcp.ladu.entitydsl
+Bundle-Vendor: My Company
+Bundle-Version: 0.0.1.qualifier
+Bundle-SymbolicName: com.gyaltso.lcp.ladu.entitydsl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.common.types,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.objectweb.asm;bundle-version="[8.0.1,8.1.0)";resolution:=optional,
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
+ com.gyaltso.lcp.ladu.libs;bundle-version="0.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: com.gyaltso.lcp.ladu.entitydsl.entityDsl.impl,
+ com.gyaltso.lcp.ladu.entitydsl.jvmmodel,
+ com.gyaltso.lcp.ladu.entitydsl.entityDsl,
+ com.gyaltso.lcp.ladu.entitydsl,
+ com.gyaltso.lcp.ladu.entitydsl.serializer,
+ com.gyaltso.lcp.ladu.entitydsl.parser.antlr,
+ com.gyaltso.lcp.ladu.entitydsl.scoping,
+ com.gyaltso.lcp.ladu.entitydsl.services,
+ com.gyaltso.lcp.ladu.entitydsl.validation,
+ com.gyaltso.lcp.ladu.entitydsl.entityDsl.util,
+ com.gyaltso.lcp.ladu.entitydsl.parser.antlr.internal
+Import-Package: org.apache.log4j

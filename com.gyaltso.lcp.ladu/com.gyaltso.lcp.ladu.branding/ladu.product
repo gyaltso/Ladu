@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Ladu" uid="ladu" id="com.gyaltso.lcp.ladu.ui.product" application="org.eclipse.ui.ide.workbench" version="0.0.1.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/com.gyaltso.lcp.ladu.ui/icons/about/about.png"/>
+      <text>
+         Low code platform for rapid development of Spring Boot applications
+Version: 0.0.1-Beta
+
+(c) Copyright Gyaltso Technologies 2020, 2021. All rights reserved.
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgs>-Dosgi.requiredJavaVersion=1.8 -XX:+UseG1GC -XX:+UseStringDeduplication -Xms256m -Xmx2G
+      </vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/com.gyaltso.lcp.ladu.ui/icons/window/16x16.png" i32="/com.gyaltso.lcp.ladu.ui/icons/window/32x32.png" i48="/com.gyaltso.lcp.ladu.ui/icons/window/48x48.png" i64="/com.gyaltso.lcp.ladu.ui/icons/window/64x64.png" i128="/com.gyaltso.lcp.ladu.ui/icons/window/128x128.png" i256="/com.gyaltso.lcp.ladu.ui/icons/window/256x256.png"/>
+
+   <splash
+      location="com.gyaltso.lcp.ladu.ui"
+      startupProgressRect="3,323,494,4"
+      startupMessageRect="7,285,320,20"
+      startupForegroundColor="000000" />
+   <launcher name="ladu">
+      <win useIco="true">
+         <ico path="/com.gyaltso.lcp.ladu.branding/icons/launcher.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+      <windows include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11</windows>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="com.gyaltso.lcp.ladu.feature" installMode="root"/>
+      <feature id="org.eclipse.xtend.sdk" installMode="root"/>
+      <feature id="org.eclipse.xtext.ui" installMode="root"/>
+      <feature id="org.eclipse.xtext.xbase.lib" installMode="root"/>
+      <feature id="org.eclipse.xtext.runtime" installMode="root"/>
+      <feature id="org.eclipse.emf.sdk" installMode="root"/>
+      <feature id="org.eclipse.emf.mapping.ecore" installMode="root"/>
+      <feature id="org.eclipse.emf.databinding.edit.source" installMode="root"/>
+      <feature id="org.eclipse.emf.codegen.ui.source" installMode="root"/>
+      <feature id="org.eclipse.emf.edit.ui.source" installMode="root"/>
+      <feature id="org.eclipse.emf.common.ui" installMode="root"/>
+      <feature id="org.eclipse.emf.databinding.source" installMode="root"/>
+      <feature id="org.eclipse.emf.converter.source" installMode="root"/>
+      <feature id="org.eclipse.emf.codegen" installMode="root"/>
+      <feature id="org.eclipse.emf.common" installMode="root"/>
+      <feature id="org.eclipse.emf" installMode="root"/>
+      <feature id="org.eclipse.emf.mapping.ui" installMode="root"/>
+      <feature id="org.eclipse.emf.codegen.ecore.source" installMode="root"/>
+      <feature id="org.eclipse.emf.mapping.ecore.editor.source" installMode="root"/>
+      <feature id="org.eclipse.emf.mapping" installMode="root"/>
+      <feature id="org.eclipse.emf.edit" installMode="root"/>
+      <feature id="org.eclipse.emf.mapping.ui.source" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore.edit.source" installMode="root"/>
+      <feature id="org.eclipse.emf.codegen.ui" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore.editor.source" installMode="root"/>
+      <feature id="org.eclipse.emf.databinding.edit" installMode="root"/>
+      <feature id="org.eclipse.emf.common.source" installMode="root"/>
+      <feature id="org.eclipse.emf.edit.source" installMode="root"/>
+      <feature id="org.eclipse.emf.codegen.ecore" installMode="root"/>
+      <feature id="org.eclipse.emf.converter" installMode="root"/>
+      <feature id="org.eclipse.emf.mapping.ecore.source" installMode="root"/>
+      <feature id="org.eclipse.emf.edit.ui" installMode="root"/>
+      <feature id="org.eclipse.emf.codegen.ecore.ui" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore.editor" installMode="root"/>
+      <feature id="org.eclipse.emf.source" installMode="root"/>
+      <feature id="org.eclipse.emf.mapping.ecore.editor" installMode="root"/>
+      <feature id="org.eclipse.emf.codegen.source" installMode="root"/>
+      <feature id="org.eclipse.emf.mapping.source" installMode="root"/>
+      <feature id="org.eclipse.emf.codegen.ecore.ui.source" installMode="root"/>
+      <feature id="org.eclipse.emf.databinding" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore.edit" installMode="root"/>
+      <feature id="org.eclipse.emf.doc" installMode="root"/>
+      <feature id="org.eclipse.emf.common.ui.source" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore.source" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature" installMode="root"/>
+      <feature id="org.eclipse.rcp" installMode="root"/>
+      <feature id="org.eclipse.e4.rcp" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.core.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient45.feature" installMode="root"/>
+      <feature id="org.eclipse.jdt" installMode="root"/>
+      <feature id="org.eclipse.pde" installMode="root"/>
+      <feature id="org.eclipse.xtext.xbase" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.user.ui" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.extras.feature" installMode="root"/>
+      <feature id="org.eclipse.platform" installMode="root"/>
+      <feature id="org.eclipse.help" installMode="root"/>
+      <feature id="org.eclipse.m2e.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.lemminx.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.logback.feature" installMode="root"/>
+      <feature id="org.eclipse.m2e.sse.ui.feature" installMode="root"/>
+      <feature id="org.eclipse.egit" installMode="root"/>
+      <feature id="org.eclipse.jgit.http.apache" installMode="root"/>
+      <feature id="org.eclipse.jgit.gpg.bc" installMode="root"/>
+      <feature id="org.eclipse.jgit.ssh.jsch" installMode="root"/>
+      <feature id="org.eclipse.jgit.ssh.apache" installMode="root"/>
+      <feature id="org.eclipse.jgit" installMode="root"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <property name="perspective" value="com.gyaltso.lcp.ladu.ui.perspective" />
+      <property name="org.eclipse.update.reconcile" value="false" />
+   </configurations>
+
+</product>

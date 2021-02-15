@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.gyaltso.lcp.ladu.entitydsl.ui
+Bundle-ManifestVersion: 2
+Bundle-Name: com.gyaltso.lcp.ladu.entitydsl.ui
+Bundle-Vendor: Gyaltso Technologies
+Bundle-Version: 0.0.1.qualifier
+Bundle-SymbolicName: com.gyaltso.lcp.ladu.entitydsl.ui; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.gyaltso.lcp.ladu.entitydsl,
+ com.gyaltso.lcp.ladu.entitydsl.ide,
+ org.eclipse.xtext.ui,
+ org.eclipse.xtext.ui.shared,
+ org.eclipse.xtext.ui.codetemplates.ui,
+ org.eclipse.ui.editors;bundle-version="3.5.0",
+ org.eclipse.ui.ide;bundle-version="3.5.0",
+ org.eclipse.ui,
+ org.eclipse.xtext.xbase.ui,
+ org.eclipse.compare,
+ org.eclipse.xtext.builder,
+ org.eclipse.jdt.debug.ui,
+ org.eclipse.xtext.common.types.ui
+Import-Package: org.apache.log4j
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: com.gyaltso.lcp.ladu.entitydsl.ui.editor,
+ com.gyaltso.lcp.ladu.entitydsl.ui.quickfix,
+ com.gyaltso.lcp.ladu.entitydsl.ui.internal,
+ com.gyaltso.lcp.ladu.entitydsl.ui.contentassist
+Bundle-Activator: com.gyaltso.lcp.ladu.entitydsl.ui.internal.EntitydslActivator

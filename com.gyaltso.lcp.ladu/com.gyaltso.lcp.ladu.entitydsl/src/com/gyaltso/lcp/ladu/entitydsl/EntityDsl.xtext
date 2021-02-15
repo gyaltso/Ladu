@@ -1,0 +1,52 @@
+/*******************************************************************************
+ * Copyright (C) 2020, 2021 Gyaltso Technologies (https://gyaltso.com/)
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+ *******************************************************************************/
+grammar com.gyaltso.lcp.ladu.entitydsl.EntityDsl with org.eclipse.xtext.xbase.annotations.XbaseWithAnnotations
+
+generate entityDsl "http://www.gyaltso.com/lcp/ladu/entitydsl/EntityDsl"
+import "http://www.eclipse.org/xtext/xbase/Xbase"
+import "http://www.eclipse.org/xtext/common/JavaVMTypes" as types
+import "http://www.eclipse.org/Xtext/Xbase/XAnnotations"
+
+Definition:
+	'package' name=QualifiedName
+	importSection=XImportSection?
+	models+=Model*;
+
+Model:
+	Entity | EEnum;
+
+Entity returns AnnotatedElement:
+	{Entity}
+	annotations+=XAnnotation*
+	(master?='master')? 'entity' name=ValidID ('extends' superType=JvmParameterizedTypeReference)? '{'
+	properties+=Property*
+	layout=Layout?
+	'}';
+
+Property returns AnnotatedElement:
+	{Property}
+	annotations+=XAnnotation*
+	name=ValidID (array?='*')? type=JvmParameterizedTypeReference;
+
+EEnum:
+	'enum' name=ValidID '{'
+	literals+=Literal*
+	'}';
+
+Literal:
+	name=ValidID;
+
+Layout:
+	{Layout}
+	'layout' '{'
+	inlines+=Inline*
+	'}';
+
+Inline:
+	'inline' properties+=[Property] (',' properties+=[Property])*;

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.gyaltso.lcp.ladu.ui.LaduPerspective"
+            fixed="false"
+            icon="icons/perspective.png"
+            id="com.gyaltso.lcp.ladu.ui.perspective"
+            name="Ladu">
+      </perspective>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.ui.ide.workbench"
+            name="Ladu">
+         <property
+               name="appName"
+               value="Ladu">
+         </property>
+         <property
+               name="aboutImage"
+               value="icons/about/about.png">
+         </property>
+         <property
+               name="aboutText"
+               value="Low code platform for rapid development of Spring Boot applications&#x0A;Version: 0.0.1-Beta&#x0A;&#x0A;(c) Copyright Gyaltso Technologies 2020, 2021. All rights reserved.">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/window/16x16.png,icons/window/32x32.png,icons/window/48x48.png,icons/window/64x64.png,icons/window/128x128.png,icons/window/256x256.png">
+         </property>
+         <property
+               name="startupForegroundColor"
+               value="000000">
+         </property>
+         <property
+               name="startupMessageRect"
+               value="7,285,320,20">
+         </property>
+         <property
+               name="startupProgressRect"
+               value="3,323,494,4">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ladu UI Plugin
+Bundle-SymbolicName: com.gyaltso.lcp.ladu.ui;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: com.gyaltso.lcp.ladu.ui.Activator
+Bundle-Vendor: Gyaltso Technologies
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.gyaltso.lcp.ladu.ui
+Bundle-ActivationPolicy: lazy

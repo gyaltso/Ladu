@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.gyaltso.lcp.ladu.entitydsl.ide
+Bundle-ManifestVersion: 2
+Bundle-Name: com.gyaltso.lcp.ladu.entitydsl.ide
+Bundle-Vendor: Gyaltso Technologies
+Bundle-Version: 0.0.1.qualifier
+Bundle-SymbolicName: com.gyaltso.lcp.ladu.entitydsl.ide; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.gyaltso.lcp.ladu.entitydsl,
+ org.eclipse.xtext.ide,
+ org.eclipse.xtext.xbase.ide,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: com.gyaltso.lcp.ladu.entitydsl.ide.contentassist.antlr.internal,
+ com.gyaltso.lcp.ladu.entitydsl.ide.contentassist.antlr
