@@ -1,4 +1,4 @@
-![Ladu](https://github.com/gyaltso/Ladu/blob/main/logo/ladu.png)
+![Ladu](https://github.com/gyaltso/Ladu/blob/main/com.gyaltso.lcp.ladu/com.gyaltso.lcp.ladu.ui/icons/about/about.png)
 
 Low code platform for rapid development of Spring Boot applications.
 
