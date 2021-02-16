@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Ladu" uid="ladu" id="com.gyaltso.lcp.ladu.ui.product" application="org.eclipse.ui.ide.workbench" version="0.0.1.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Ladu" uid="ladu" id="com.gyaltso.lcp.ladu.ui.product" application="org.eclipse.ui.ide.workbench" version="1.0.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/com.gyaltso.lcp.ladu.ui/icons/about/about.png"/>

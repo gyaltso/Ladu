@@ -2,7 +2,7 @@
 <feature
       id="com.gyaltso.lcp.ladu.feature"
       label="Feature"
-      version="0.0.1.qualifier"
+      version="1.0.0"
       provider-name="Gyaltso Technologies">
 
    <description url="http://www.example.com/description">

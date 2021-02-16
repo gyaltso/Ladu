@@ -3,7 +3,7 @@ Automatic-Module-Name: com.gyaltso.lcp.ladu.entitydsl.ui.tests
 Bundle-ManifestVersion: 2
 Bundle-Name: com.gyaltso.lcp.ladu.entitydsl.ui.tests
 Bundle-Vendor: Gyaltso Technologies
-Bundle-Version: 0.0.1.qualifier
+Bundle-Version: 1.0.0
 Bundle-SymbolicName: com.gyaltso.lcp.ladu.entitydsl.ui.tests; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: com.gyaltso.lcp.ladu.entitydsl.ui,
