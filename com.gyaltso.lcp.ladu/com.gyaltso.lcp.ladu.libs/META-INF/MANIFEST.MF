@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Libs project
 Bundle-SymbolicName: com.gyaltso.lcp.ladu.libs
-Bundle-Version: 0.0.1.qualifier
+Bundle-Version: 1.0.0
 Bundle-ClassPath: jakarta.persistence-api-2.2.3.jar,
  liquibase.jar,
  spring-beans-5.2.9.RELEASE.jar,

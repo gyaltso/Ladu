@@ -3,7 +3,7 @@ Automatic-Module-Name: com.gyaltso.lcp.ladu.entitydsl
 Bundle-ManifestVersion: 2
 Bundle-Name: com.gyaltso.lcp.ladu.entitydsl
 Bundle-Vendor: My Company
-Bundle-Version: 0.0.1.qualifier
+Bundle-Version: 1.0.0
 Bundle-SymbolicName: com.gyaltso.lcp.ladu.entitydsl; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.xtext,
