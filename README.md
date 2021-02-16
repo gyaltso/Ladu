@@ -22,5 +22,5 @@ TBD...
 Neeraj Bhusare (neerajbhusare@gyaltso.com)
 
 # Graphics
-Kunal Dahale
+Kunal Dahale (kunaldahale@gyaltso.com)
 
