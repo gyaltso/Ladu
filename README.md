@@ -18,6 +18,9 @@ TBD...
 4. Support for Entity Generation from the Database schema
 5. TBD.
 
+# Getting started
+https://github.com/gyaltso/Ladu/wiki/Getting-started-with-project-Ladu
+
 # Contributors
 Neeraj Bhusare (neerajbhusare@gyaltso.com)
 
