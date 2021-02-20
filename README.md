@@ -12,7 +12,7 @@ TBD...
 4. Custom IDE - custom ladu project, project creation wizard, update site.
 
 # Future enhancements
-1. Support for Quarkus, Lagom
+1. Support for Quarkus, Lagom, .Net Core
 2. Support for GraphQL
 3. Support for Database schema generation
 4. Support for Entity Generation from the Database schema
